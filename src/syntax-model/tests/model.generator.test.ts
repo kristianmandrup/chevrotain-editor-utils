@@ -1,8 +1,7 @@
 import { withSyntaxModeller } from "../syntax-model";
-import { BaseParser } from "chevrotain-lsp-utils";
-import { createToken } from "chevrotain";
+import { createToken, Parser } from "chevrotain";
 
-class SqlParser extends BaseParser {
+class SqlParser extends Parser {
   rootRule = () => this.turtleDoc();
 
   turtleDoc = () =>
