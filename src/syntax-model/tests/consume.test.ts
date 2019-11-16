@@ -1,4 +1,4 @@
-import { createConsume } from "../create-consume";
+import { createConsume } from "syntax-model";
 
 const context = describe;
 

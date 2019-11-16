@@ -1,6 +1,6 @@
 import merge from "deepmerge";
 import uniq from "array-uniq";
-import { toArray } from "../syntax-gen";
+import { toArray } from "syntax-gen";
 
 export const createSyntax = model => (repoKey, opts: any = {}): any => {
   const { references, name, root } = opts;

@@ -1,5 +1,5 @@
 import uniq from "array-uniq";
-import { toArray } from "../syntax-gen";
+import { toArray } from "syntax-gen";
 
 export const createConsume = (model: any) => (opts: any = {}): any => {
   if (!model) {

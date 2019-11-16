@@ -1,4 +1,4 @@
-import { createSyntax } from "../create-syntax";
+import { createSyntax } from "syntax-model";
 
 describe("syntax via createSyntax", () => {
   let model: any = {};

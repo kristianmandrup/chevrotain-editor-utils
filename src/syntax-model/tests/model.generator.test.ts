@@ -1,4 +1,4 @@
-import { withSyntaxModeller } from "../syntax-model";
+import { withSyntaxModeller } from "syntax-model";
 import { createToken, Parser } from "chevrotain";
 
 class SqlParser extends Parser {
